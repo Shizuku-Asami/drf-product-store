@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "productstore"
+version = "0.1.0"
+description = ""
+authors = ["Shizuku-Asami <xv.chronos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.6"
+djangorestframework = "^3.13.1"
+django-cors-headers = "^3.13.0"
+drf-yasg = "^1.20.0"
+Pillow = "^9.2.0"
+django-environ = "^0.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jedi-language-server = "^0.36.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
